@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN
+Home-page: https://github.com/shivaganesh-koppishetty/oral-lesion-detection-ai
+Author: shivaganesh-koppishetty
+Author-email: koppishettyshivaganesh@gmail.com
+Project-URL: Bug Tracker, https://github.com/shivaganesh-koppishetty/oral-lesion-detection-ai/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# oral-lesion-detection-ai
+A computer vision-based deep learning project to detect oral cancer from clinical mouth images. The model performs binary classification (Cancer / No Cancer) using CNNs and transfer learning.
