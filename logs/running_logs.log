@@ -36,3 +36,110 @@
 [2025-07-22 23:53:34,562: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x========x]
+[2025-07-25 02:48:40,489: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-25 02:48:40,616: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 02:48:40,619: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 02:48:40,620: INFO: common: created directory at: artifacts]
+[2025-07-25 02:48:40,620: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-25 02:48:40,621: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1kmrF8EWe8l3mHAkZoWujvA2paXeUiDxR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-25 02:49:27,786: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1kmrF8EWe8l3mHAkZoWujvA2paXeUiDxR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-25 02:49:29,408: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x========x]
+[2025-07-25 02:49:29,408: INFO: main: ********************]
+[2025-07-25 02:49:29,408: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-25 02:49:29,410: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 02:49:29,413: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 02:49:29,413: INFO: common: created directory at: artifacts]
+[2025-07-25 02:49:29,413: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-25 02:49:32,863: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-25 02:49:33,041: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-25 02:49:33,817: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x============x]
+[2025-07-25 02:53:28,547: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-25 02:53:28,560: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 02:53:28,562: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 02:53:28,563: INFO: common: created directory at: artifacts]
+[2025-07-25 02:53:28,563: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-25 02:53:28,564: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1kmrF8EWe8l3mHAkZoWujvA2paXeUiDxR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-25 02:54:15,027: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1kmrF8EWe8l3mHAkZoWujvA2paXeUiDxR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-25 02:54:16,535: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x========x]
+[2025-07-25 02:54:16,535: INFO: main: ********************]
+[2025-07-25 02:54:16,535: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-25 02:54:16,537: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 02:54:16,538: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 02:54:16,539: INFO: common: created directory at: artifacts]
+[2025-07-25 02:54:16,539: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-25 02:54:18,498: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x============x]
+[2025-07-25 03:52:58,330: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-25 03:52:58,344: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 03:52:58,352: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 03:52:58,354: INFO: common: created directory at: artifacts]
+[2025-07-25 03:52:58,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-25 03:52:58,354: INFO: data_ingestion: DataIngestion: Initialized with configuration]
+[2025-07-25 03:52:58,354: INFO: data_ingestion: Data Ingestion: download_file started]
+[2025-07-25 03:52:58,354: INFO: data_ingestion: Creating directory if not exists: artifacts/data_ingestion]
+[2025-07-25 03:52:58,355: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1kmrF8EWe8l3mHAkZoWujvA2paXeUiDxR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-25 03:53:44,829: INFO: data_ingestion: Download successful: artifacts/data_ingestion/data.zip]
+[2025-07-25 03:53:44,829: ERROR: data_ingestion: Exception occurred in download_file]
+Traceback (most recent call last):
+  File "d:\ai ml project\oral-lesion-detection-ai\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    logger.info(f"Downloaded file size: {get_size(Path(zip_download_dir))}")
+                                                  ^^^^
+NameError: name 'Path' is not defined
+[2025-07-25 03:53:44,831: ERROR: main: name 'Path' is not defined]
+Traceback (most recent call last):
+  File "D:\AI ML Project\oral-lesion-detection-ai\main.py", line 10, in <module>
+    obj.main()
+  File "d:\ai ml project\oral-lesion-detection-ai\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "d:\ai ml project\oral-lesion-detection-ai\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    logger.info(f"Downloaded file size: {get_size(Path(zip_download_dir))}")
+                                                  ^^^^
+NameError: name 'Path' is not defined
+[2025-07-25 03:57:30,970: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-25 03:57:30,971: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 03:57:30,973: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 03:57:30,973: INFO: common: created directory at: artifacts]
+[2025-07-25 03:57:30,973: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-25 03:57:30,973: INFO: data_ingestion: DataIngestion: Initialized with configuration]
+[2025-07-25 03:57:30,973: INFO: data_ingestion: Data Ingestion: download_file started]
+[2025-07-25 03:57:30,973: INFO: data_ingestion: Creating directory if not exists: artifacts/data_ingestion]
+[2025-07-25 03:57:30,975: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1kmrF8EWe8l3mHAkZoWujvA2paXeUiDxR/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-25 03:58:17,437: INFO: data_ingestion: Download successful: artifacts/data_ingestion/data.zip]
+[2025-07-25 03:58:17,437: INFO: data_ingestion: Downloaded file size: ~ 161249 KB]
+[2025-07-25 03:58:17,438: INFO: data_ingestion: Data Ingestion: download_file completed]
+[2025-07-25 03:58:17,438: INFO: data_ingestion: Data Ingestion: extract_zip_file started]
+[2025-07-25 03:58:17,438: INFO: data_ingestion: Creating unzip directory if not exists: artifacts/data_ingestion]
+[2025-07-25 03:58:17,438: INFO: data_ingestion: Attempting to extract: artifacts/data_ingestion/data.zip -> artifacts/data_ingestion]
+[2025-07-25 03:58:18,447: INFO: data_ingestion: Extraction complete: artifacts/data_ingestion/data.zip -> artifacts/data_ingestion]
+[2025-07-25 03:58:18,447: INFO: data_ingestion: Data Ingestion: extract_zip_file completed]
+[2025-07-25 03:58:18,447: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x============x]
+[2025-07-25 03:58:18,447: INFO: main: ********************]
+[2025-07-25 03:58:18,447: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-25 03:58:18,448: INFO: common: yaml file : config\config.yaml loaded succesfully]
+[2025-07-25 03:58:18,449: INFO: common: yaml file : params.yaml loaded succesfully]
+[2025-07-25 03:58:18,449: INFO: common: created directory at: artifacts]
+[2025-07-25 03:58:18,449: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-25 03:58:18,451: INFO: prepare_base_model: PrepareBaseModel: Initialized with configuration]
+[2025-07-25 03:58:18,451: INFO: prepare_base_model: get_base_model: started]
+[2025-07-25 03:58:18,981: INFO: prepare_base_model: Base model loaded successfully]
+[2025-07-25 03:58:19,573: INFO: prepare_base_model: Model saved at: artifacts\prepare_base_model\base_model.keras]
+[2025-07-25 03:58:19,573: INFO: prepare_base_model: get_base_model: completed]
+[2025-07-25 03:58:19,573: INFO: prepare_base_model: update_base_model: started]
+[2025-07-25 03:58:19,573: INFO: prepare_base_model: _prepare_full_model: started]
+[2025-07-25 03:58:19,574: INFO: prepare_base_model: All layers frozen]
+[2025-07-25 03:58:19,588: INFO: prepare_base_model: Full model compiled successfully]
+[2025-07-25 03:58:19,617: INFO: prepare_base_model: _prepare_full_model: completed]
+[2025-07-25 03:58:20,237: INFO: prepare_base_model: Model saved at: artifacts\prepare_base_model\base_model_updated.keras]
+[2025-07-25 03:58:20,237: INFO: prepare_base_model: update_base_model: completed]
+[2025-07-25 03:58:20,237: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x============x]

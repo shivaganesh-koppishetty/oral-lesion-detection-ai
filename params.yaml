@@ -1,1 +1,8 @@
-key : value
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3]  # as per VGG 16 model
+BATCH_SIZE: 16
+CLASSES: 2
+EPOCHS: 1
+INCLUDE_TOP: False
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
