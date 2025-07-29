@@ -8,6 +8,7 @@ class DataIngestionConfig:
     source_URL : str
     local_data_file : Path
     unzip_dir : Path
+    training_data : Path
 
 @dataclass(frozen=True)
 class PrepareBaseModelConfig:
@@ -19,3 +20,14 @@ class PrepareBaseModelConfig:
     params_include_top : bool
     params_weights : str
     params_learning_rate : float
+
+@dataclass(frozen=True)
+class TrainingConfig:
+    root_dir : Path
+    trained_model_path : Path
+    updated_base_model_path : Path
+    training_data : Path
+    params_is_augmentation : bool
+    params_image_size : list
+    params_epochs : int
+    params_batch_size : int   

@@ -36,12 +36,12 @@ class PrepareBaseModel:
             if freeze_all:
                 for layer in model.layers:
                     layer.trainable = False
-                logger.info("All layers frozen")
+                
 
             elif (freeze_till is not None) and (freeze_till > 0):
                 for layer in model.layers[: -freeze_till]:
                     layer.trainable = False
-                logger.info(f"Layers frozen until index {-freeze_till}")
+                
 
             flatten_in = tf.keras.layers.Flatten()(model.output)
             prediction = tf.keras.layers.Dense(units=classes, activation="softmax")(flatten_in)
@@ -57,7 +57,6 @@ class PrepareBaseModel:
                 metrics=["Accuracy"]
             )
 
-            logger.info("Full model compiled successfully")
             full_model.summary()
             logger.info("_prepare_full_model: completed")
 

@@ -2,6 +2,7 @@ import os
 import zipfile
 import gdown
 from pathlib import Path
+from PIL import Image, UnidentifiedImageError
 from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
 from cnnClassifier.entity.config_entity import DataIngestionConfig
@@ -67,3 +68,22 @@ class DataIngestion:
         except Exception:
             logger.exception("Exception occurred in extract_zip_file")
             raise
+
+    def remove_unreadable_images(self):
+        training_data = self.config.training_data
+        deleted = 0
+        total = 0
+
+        for img_path in training_data.rglob("*.jpeg"):
+            total += 1
+            try:
+                with Image.open(img_path) as img:
+                    img.verify()
+            except (UnidentifiedImageError, OSError) as e:
+                try:
+                    img_path.unlink()
+                    deleted += 1
+                except Exception as remove_err:
+                    logger.error(f"Failed to remove {img_path}: {remove_err}")
+
+        logger.info(f"Unreadable image removal complete — Total: {total}, Removed: {deleted}, Valid: {total - deleted}")      
