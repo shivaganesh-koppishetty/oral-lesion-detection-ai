@@ -10,6 +10,7 @@ class DataIngestionConfig:
     unzip_dir : Path
     training_data : Path
 
+
 @dataclass(frozen=True)
 class PrepareBaseModelConfig:
     root_dir : Path
@@ -21,6 +22,7 @@ class PrepareBaseModelConfig:
     params_weights : str
     params_learning_rate : float
 
+
 @dataclass(frozen=True)
 class TrainingConfig:
     root_dir : Path
@@ -31,3 +33,13 @@ class TrainingConfig:
     params_image_size : list
     params_epochs : int
     params_batch_size : int   
+
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model : Path
+    training_data : Path
+    all_params : dict
+    mlflow_tracking_uri : str
+    params_image_size : list
+    params_batch_size : int

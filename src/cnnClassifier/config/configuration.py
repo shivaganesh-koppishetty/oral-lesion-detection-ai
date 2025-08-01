@@ -1,7 +1,7 @@
 import os
 from cnnClassifier.constants import *
-from cnnClassifier.utils.common import read_yaml, create_directories
-from cnnClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig
+from cnnClassifier.utils.common import read_yaml, create_directories, save_json
+from cnnClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig
 
 
 class ConfigurationManager:
@@ -70,3 +70,21 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+
+
+    def get_evaluation_config(self) -> EvaluationConfig:
+        training = self.config.training
+        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "Oral Cancer Image Dataset")
+        params = self.params
+
+        evaluation_config = EvaluationConfig(
+            path_of_model=Path(training.trained_model_path),
+            training_data=training_data,
+            all_params=params,
+            mlflow_tracking_uri="https://dagshub.com/shivaganesh-koppishetty/oral-lesion-detection-ai.mlflow",
+            params_image_size=params.IMAGE_SIZE,
+            params_batch_size=params.BATCH_SIZE
+        )
+
+        return evaluation_config
