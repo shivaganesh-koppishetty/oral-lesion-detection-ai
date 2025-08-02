@@ -1,4 +1,15 @@
 # Oral Lesion Detection AI
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19.0-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-API-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-2.21.2-0064A5?style=for-the-badge&logo=mlflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-Enabled-945DD6?style=for-the-badge&logo=dvc&logoColor=white)
+![DagsHub](https://img.shields.io/badge/DagsHub-Data%20Versioning-FF7300?style=for-the-badge&logo=dagsHub&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Progress-F4C430?style=for-the-badge)
+
 ### Navigation Map
 - [Overview](#overview)
 - [Environment Setup](#environment-setup)
