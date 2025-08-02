@@ -94,24 +94,27 @@ This project is a reflection of collective knowledge shared by the global develo
 ### 🛠️ Technologies & Tools Used
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40" />
+  <img src="https://www.stickpng.com/img/download/62a6365f03a870b920cbfd45/image" alt="Git" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/iterative/dvc.org/main/static/img/logo.svg" alt="DVC" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/_static/MLflow-logo-final-black.png" alt="MLflow" height="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Data_Version_Control._Official_Logo_by_Iterative.ai.png?download" alt="DVC" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Dagshub-Official/brand-assets/main/logo/full-logo-light-text.svg" alt="DagsHub" height="40" />
+  <img src="https://www.pngaaa.com/api-download/5543747" alt="MLflow" height="40"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/611655/181510038-e38f4001-c304-411e-8f45-f71554eb9763.png" alt="DagsHub" height="40"/>
 </p>
+
 
 ---
 
