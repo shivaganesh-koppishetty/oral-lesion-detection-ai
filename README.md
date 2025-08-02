@@ -1,4 +1,13 @@
 # Oral Lesion Detection AI
+### Navigation Map
+- [Overview](#overview)
+- [Environment Setup](#environment-setup)
+- [About the Dataset](#about-the-dataset)
+- [Project Structure](#project-structure)
+- [Development Workflow](#development-workflow)
+- [Acknowledgements](#acknowledgements)
+
+---
 
 ### Overview
 This project implements a deep learning-based computer vision system to automatically detect early-stage oral abnormalities from clinical mouth images. The goal is binary classification: determining whether an image shows a healthy oral cavity or signs of a potentially harmful lesion.
