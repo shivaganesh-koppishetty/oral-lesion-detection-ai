@@ -79,7 +79,7 @@ oral-lesion-detection-ai/
 
 ### Acknowledgements
 I would like to thank the individuals, tools, and open-source communities that contributed—directly or indirectly—to the development of this project:
-- ZaidPy – Oral Cancer Image Dataset – For providing a high-quality dataset for training and evaluation
+- Kaggle – Oral Cancer Image Dataset – For providing a high-quality dataset for training and evaluation
 - TensorFlow & Keras – For enabling efficient deep learning model development
 - Flask – For supporting quick and easy model deployment as a web application
 - DVC and MLflow – For experiment tracking, data versioning, and pipeline reproducibility
