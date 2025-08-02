@@ -1,5 +1,6 @@
 # oral-lesion-detection-ai
-A computer vision-based deep learning project to detect oral cancer from clinical mouth images. The model performs binary classification (Cancer / No Cancer) using CNNs and transfer learning.
+## Overview
+This project implements a deep learning-based computer vision system to automatically detect early-stage oral abnormalities from clinical mouth images. The goal is binary classification: determining whether an image shows a healthy oral cavity or signs of a potentially harmful lesion.
 
 
 ## Workflows
