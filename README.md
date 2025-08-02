@@ -12,7 +12,9 @@
 ---
 
 ### Overview
-This project implements a deep learning-based computer vision system to automatically detect early-stage oral abnormalities from clinical mouth images. The goal is binary classification: determining whether an image shows a healthy oral cavity or signs of a potentially harmful lesion.
+This project lies within the intersection of Healthcare and Artificial Intelligence, applying deep learning techniques to the field of medical imaging. It focuses on detecting oral lesions from clinical mouth images using a binary classification model — identifying images as either healthy or showing signs of potential abnormalities.
+
+Using Convolutional Neural Networks (CNNs) and a transfer learning approach, the model is fine-tuned on a curated dataset of oral images. This enables effective learning from limited data, making the model suitable for early-stage diagnostic support.
 
 ---
 
