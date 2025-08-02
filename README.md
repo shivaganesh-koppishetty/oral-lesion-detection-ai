@@ -102,9 +102,9 @@ This project is a reflection of collective knowledge shared by the global develo
   &nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" height="40"/>
+  <img src="https://www.pngaaa.com/api-download/3594027" alt="Flask" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="40"/>
+  <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=FFFFFF" alt="GitHub" height="40"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://www.stickpng.com/img/download/62a6365f03a870b920cbfd45/image" alt="Git" height="40"/>
   &nbsp;&nbsp;&nbsp;
