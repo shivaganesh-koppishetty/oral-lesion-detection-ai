@@ -91,6 +91,30 @@ This project is a reflection of collective knowledge shared by the global develo
 
 ---
 
+### Technologies & Tools Used
+
+  <tr>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" height="50" alt="Python" /></td>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" height="50" alt="TensorFlow" /></td>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/kerasio/kerasio-ar21.svg" height="50" alt="Keras" /></td>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/mlflow/mlflow-ar21.svg" height="50" alt="MLflow" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/iterative/dvc.org/main/static/img/logo.svg" height="50" alt="DVC" /></td>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" height="50" alt="Flask" /></td>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" height="50" alt="Git" /></td>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" height="50" alt="GitHub" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg" height="50" alt="VSCode" /></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/MLH-Fellowship/dagshub-branding/main/images/logo/logo-white-bg.svg" height="50" alt="DagsHub" /></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+---
+
 ### Connect with Me
 
 | Platform       | Link                                                                 |
