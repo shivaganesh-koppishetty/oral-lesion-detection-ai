@@ -7,6 +7,7 @@
 - [Project Structure](#project-structure)
 - [Development Workflow](#development-workflow)
 - [Acknowledgements](#acknowledgements)
+- [Connect with Me](#connect-with-me)
 
 ---
 
