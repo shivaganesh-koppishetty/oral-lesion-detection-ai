@@ -14,7 +14,7 @@
 ### Overview
 This project lies within the intersection of Healthcare and Artificial Intelligence, applying deep learning techniques to the field of medical imaging. It focuses on detecting oral lesions from clinical mouth images using a binary classification model — identifying images as either healthy or showing signs of potential abnormalities.
 
-Using Convolutional Neural Networks (CNNs) and a transfer learning approach, the model is fine-tuned on a curated dataset of oral images. This enables effective learning from limited data, making the model suitable for early-stage diagnostic support.
+Using Convolutional Neural Networks (CNNs) and a transfer learning approach, the model is fine-tuned on a curated dataset of oral images. This enhances its ability to recognize subtle patterns and visual cues relevant to oral pathology.
 
 ---
 
