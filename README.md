@@ -93,7 +93,7 @@ This project is a reflection of collective knowledge shared by the global develo
 
 ---
 
-### 🛠️ Technologies & Tools Used
+### Technologies & Tools Used
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="40"/>
