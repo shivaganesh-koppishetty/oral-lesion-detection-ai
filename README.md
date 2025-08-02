@@ -98,3 +98,17 @@ I would like to thank the individuals, tools, and open-source communities that c
 - Official Documentation & Developer Guides – Referred throughout the project for TensorFlow, Flask, DVC, MLflow, and other tools to ensure best practices and correct implementation
 - Open Source Community – For tutorials, blog posts, and community support that greatly enhanced my understanding and helped troubleshoot challenges
 This project is a reflection of collective knowledge shared by the global developer community—thank you!
+
+---
+
+### Connect with Me
+
+| Platform       | Link                                                                 |
+|----------------|----------------------------------------------------------------------|
+| 💼 LinkedIn     | [shivaganesh-koppishetty](https://www.linkedin.com/in/shivaganesh-koppishetty/) |
+| 💻 GitHub       | [shivaganesh-koppishetty](https://github.com/shivaganesh-koppishetty) |
+| ✉️ Email         | koppishetty.shivaganesh@gmail.com                                              |
+
+Feel free to reach out for collaborations, project ideas, or just to connect!
+
+---
