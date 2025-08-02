@@ -91,27 +91,27 @@ This project is a reflection of collective knowledge shared by the global develo
 
 ---
 
-### Technologies & Tools Used
+### 🛠️ Technologies & Tools Used
 
-  <tr>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" height="50" alt="Python" /></td>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" height="50" alt="TensorFlow" /></td>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/kerasio/kerasio-ar21.svg" height="50" alt="Keras" /></td>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/mlflow/mlflow-ar21.svg" height="50" alt="MLflow" /></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/iterative/dvc.org/main/static/img/logo.svg" height="50" alt="DVC" /></td>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" height="50" alt="Flask" /></td>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" height="50" alt="Git" /></td>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" height="50" alt="GitHub" /></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg" height="50" alt="VSCode" /></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/MLH-Fellowship/dagshub-branding/main/images/logo/logo-white-bg.svg" height="50" alt="DagsHub" /></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/iterative/dvc.org/main/static/img/logo.svg" alt="DVC" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/_static/MLflow-logo-final-black.png" alt="MLflow" height="40" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/Dagshub-Official/brand-assets/main/logo/full-logo-light-text.svg" alt="DagsHub" height="40" />
+</p>
 
 ---
 
