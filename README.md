@@ -2,6 +2,7 @@
 
 ### Navigation Map
 - [Overview](#overview)
+- [Interactive Streamlit Demo](#interactive-streamlit-demo)
 - [Environment Setup](#environment-setup)
 - [About the Dataset](#about-the-dataset)
 - [Project Structure](#project-structure)
