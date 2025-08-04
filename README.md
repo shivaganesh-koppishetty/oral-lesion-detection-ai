@@ -50,6 +50,8 @@ oral-lesion-detection-ai/
 ├── artifacts/
 ├── config/
 │   └── config.yaml
+├── images/
+│   └── UI_images
 ├── logs/
 │   └── running_logs.log
 ├── research/
@@ -66,6 +68,7 @@ oral-lesion-detection-ai/
 ├── templates/
 │   └── index.html
 ├── .gitignore
+├── app.py
 ├── dvc.yaml
 ├── main.py
 ├── params.yaml
@@ -87,7 +90,7 @@ oral-lesion-detection-ai/
 6. Update Pipeline Stages – Connect components to form modular pipeline stages
 7. Update main.py – Run all pipeline stages sequentially using a central controller
 8. Update dvc.yaml – Define and version the DVC pipeline for reproducibility
-9. Update or Run app.py – Launch the Flask web application for image-based predictions
+9. Update or Run app.py – Launch the Streamlit web application for image-based predictions
 
 ---
 
@@ -114,15 +117,17 @@ This project is a reflection of collective knowledge shared by the global develo
   &nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" height="40"/>
   &nbsp;&nbsp;&nbsp;
+  <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-lighttext.png" alt="Streamlit" height="40"/>
+  &nbsp;&nbsp;&nbsp;
   <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=FFFFFF" alt="GitHub" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://www.stickpng.com/img/download/62a6365f03a870b920cbfd45/image" alt="Git" height="40"/>
+  <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg" alt="Git" height="40"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" height="40"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Data_Version_Control._Official_Logo_by_Iterative.ai.png?download" alt="DVC" height="40"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://www.pngaaa.com/api-download/5543747" alt="MLflow" height="40"/>
+  <img src="https://cdn.brandfetch.io/idS8GMP5c8/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1742926327412" alt="MLflow" height="40"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/611655/181510038-e38f4001-c304-411e-8f45-f71554eb9763.png" alt="DagsHub" height="40"/>
 </p>
