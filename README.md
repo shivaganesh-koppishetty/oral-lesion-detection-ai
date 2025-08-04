@@ -17,6 +17,17 @@ This project lies within the intersection of Healthcare and Artificial Intellige
 Using Convolutional Neural Networks (CNNs) and a transfer learning approach, the model is fine-tuned on a curated dataset of oral images. This enhances its ability to recognize subtle patterns and visual cues relevant to oral pathology.
 
 ---
+### Interactive Streamlit Demo
+#### Home Page
+![UI Homepage](/images/ui_homepage.png)
+#### Prediction Result
+![UI Prediction](/images/ui_prediction.png)
+#### Confidence Scores
+![UI Confidence Scores](/images/ui_confidence_scores.png)
+#### About Section
+![UI About](/images/ui_about.png)
+
+
 
 ### Environment Setup
 For the portal to run, python packages will be required .This whole portal is build on python3.11 so the required packages are mentioned in a file named as requirements.txt from where we can download all the required libraries in a single go by just typing the following command in the command prompt after installing python.
@@ -83,7 +94,7 @@ oral-lesion-detection-ai/
 I would like to thank the individuals, tools, and open-source communities that contributed—directly or indirectly—to the development of this project:
 - Kaggle – Oral Cancer Image Dataset – For providing a high-quality dataset for training and evaluation
 - TensorFlow & Keras – For enabling efficient deep learning model development
-- Flask – For supporting quick and easy model deployment as a web application
+- Streamlit – For building an intuitive and interactive user interface
 - DVC and MLflow – For experiment tracking, data versioning, and pipeline reproducibility
 - DagsHub – For integrating version control, data tracking, and ML experiment management in one collaborative platform
 - VS Code, Git & GitHub – For providing a stable development environment and version control workflow
@@ -101,8 +112,6 @@ This project is a reflection of collective knowledge shared by the global develo
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" height="40"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" height="40"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://www.pngaaa.com/api-download/3594027" alt="Flask" height="40"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=FFFFFF" alt="GitHub" height="40"/>
   &nbsp;&nbsp;&nbsp;
